@@ -25,6 +25,7 @@
 
 .jd .baidusearch .logo {
     width: 600px;
+    height: 20px;
     position: absolute;
     top: -50px;
     left: 15%;
@@ -201,7 +202,7 @@
      margin-right: 40px;
      margin-top: 20px;
      cursor: pointer;
-     transition: all 0.6s;
+     transition: all 0.3s;
 }
 
 .jd .itembox .showitem ul li img {
@@ -237,13 +238,11 @@
     top: 730px;
     margin-left: 0px;
     list-style: none;
-    
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
  .sidechain ul {
     width: 260px;
     height: 780px;
-    border: 2px solid #000;
-    border-left: none;
     list-style-type:none;
     opacity: 0.3;
 }
@@ -258,7 +257,7 @@
  .sidechain ul li a {
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 23px;
     color: black;
     margin-left: 70px;
     line-height: 95px;
@@ -303,6 +302,7 @@
 
 .jd2  .googlepage .logo {
     width: 600px;
+    height: 20px;
     top: -60px;
     position: absolute;
     left: 17%;
@@ -473,7 +473,7 @@
      margin-right: 40px;
      margin-top: 30px;
      cursor: pointer;
-     transition: all 0.6s;
+     transition: all 0.3s;
 }
 
 .jd2  .itembox .showitem ul li img {
@@ -510,12 +510,11 @@
     margin-left: -150px;
     list-style: none;
     opacity: 0.3;
+    box-shadow: 0  0 20px rgba(0,0,0,0.7);
 }
 .jd2  .sidechain2 ul {
     width: 250px;
     height: 780px;
-    border: 2px solid #000;
-    border-left: none;
     list-style-type:none;
 
 }
@@ -530,7 +529,7 @@
 .jd2  .sidechain2 ul li a {
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 95px;
     color: black;
     margin-left: 70px;
@@ -550,7 +549,7 @@
         display: block;
         width: 90px;
         height: 5px;
-        margin-left: -13px;
+        margin-left: -23px;
         background-color: #b0b0b0;
    
 }
@@ -563,7 +562,7 @@
     width: 90px;
     height: 5px;
     margin-top: 5px;
-    margin-left: -13px;
+    margin-left: -23px;
     background-color: #b0b0b0;
 
 }
@@ -602,8 +601,8 @@
 }
 
 .showitem ul li:hover {
-    transform: translate3d(0, -10px ,0);
-   box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+    transform: translate3d(0, -5px ,0);
+   box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .3);
 }
 
 
