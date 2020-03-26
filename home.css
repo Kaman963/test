@@ -21,6 +21,7 @@
     left: 670px;
     text-align: center;
     list-style: none;
+    z-index: 5000;
 }
 
 .jd .baidusearch .logo {
@@ -62,12 +63,15 @@
     width:800px;
     height: 50px;
     border: 1px solid rgb(229,229,229);
-    font-size: 25px;
+    font-size: 17px;
+    background: url(./zxj.png) no-repeat 98% 50%;
+    background-size: 20px 20px;
 }
+
 .baidusearch input[type="submit"] {
     position: absolute;
     font-size: 18px;
-    color: rgb(229,229,229);
+    color: rgb(252, 252, 252);
     width:120px;
     height: 50px;
     border: 1px solid rgb(51,136,255);
@@ -80,7 +84,8 @@
     position: absolute;
     left: 630px;
     top: 200px;
-    opacity: 0.2;
+    opacity: 0.3;
+    z-index: 10;
 }
 .history .recently h2 {
    color: #000;
@@ -342,7 +347,16 @@
     border: 1px solid rgb(229,229,229);
     border-radius: 50px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.7);
-    font-size: 25px;
+    font-size: 16px;
+    background: url(./fdj.png) 20px 20px no-repeat, 
+    url(./mic.png) no-repeat;
+    background-position:  5%, 95%;
+    background-size: 30px 30px, 20px 20px;
+}
+
+/* 改变placeholder字体颜色 */
+input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    color: rgb(214, 211, 211);
 }
 
 /* 历史2 */
@@ -574,18 +588,6 @@
 .history2:hover {
     opacity: 1;
   }
-.jd .itembox .showitem:hover {
-    opacity: 1;
-}
-.jd .sidechain ul:hover {
-    opacity: 1;
-}
-.jd2 .showitem:hover {
-    opacity: 1;
-}
-.jd2 .sidechain2:hover {
-    opacity: 1;
-}
 
 
 /* active */
