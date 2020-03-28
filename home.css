@@ -51,7 +51,7 @@
        
 } 
 .jd .baidupage .baidusearch {
-    z-index: 500;
+ 
     height: 200px;
     top: 280px;
     left: -150px;
@@ -188,7 +188,7 @@
     margin-top: 40px;
     border: 1px solid #b0b0b0;
     box-shadow: 0 2px 2px rgba(0,0,0,0.7);
-    opacity: 0.3;
+   
 }
 .jd .itembox  .showitem h3 {
     position: absolute;
@@ -244,20 +244,25 @@
     margin-left: 0px;
     list-style: none;
     box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    z-index: 900;
 }
  .sidechain ul {
     width: 260px;
     height: 780px;
     list-style-type:none;
-    opacity: 0.3;
+   
 }
-
+.sidechain ul li {
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0 30px;
+}
 .sidechain ul li img {
     width: 30px;
     height: 30px;
     position: absolute;
-    margin-top: 35px; 
-    left: 60px;  
+    margin-top: 32px; 
+     
 }
  .sidechain ul li a {
     text-decoration: none;
@@ -466,7 +471,7 @@ input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
     margin-top: 40px;
     border: 1px solid #b0b0b0;
     box-shadow: 0 2px 2px rgba(0,0,0,0.7);
-    opacity: 0.3;
+  
     
 }
 .jd2  .itembox  .showitem h3 {
@@ -523,7 +528,6 @@ input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
     top: 730px;
     margin-left: -150px;
     list-style: none;
-    opacity: 0.3;
     box-shadow: 0  0 20px rgba(0,0,0,0.7);
 }
 .jd2  .sidechain2 ul {
@@ -533,12 +537,18 @@ input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
 
 }
 
+.jd2  .sidechain2 ul li {
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
 .jd2 .sidechain2 ul li img {
     width: 30px;
     height: 30px;
     position: absolute;
-    margin-top: 35px; 
-    left: 60px;  
+    margin-top: 33px; 
+    
 }
 .jd2  .sidechain2 ul li a {
     text-decoration: none;
@@ -556,30 +566,9 @@ input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
 
 
 /* hover */
-.sidechain ul li a:hover:after {
-    
-     
-        content: "";
-        display: block;
-        width: 90px;
-        height: 5px;
-        margin-left: -23px;
-        background-color: #b0b0b0;
-   
-}
 
-.sidechain2 ul li a:hover:after {
-    
-     
-    content: "";
-    display: block;
-    width: 90px;
-    height: 5px;
-    margin-top: 5px;
-    margin-left: -23px;
-    background-color: #b0b0b0;
 
-}
+
 
 
 .history:hover {
@@ -607,6 +596,13 @@ input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .3);
 }
 
+.sidechain ul li:hover {
+    transform: translate3d(0, -5px ,0);
+   box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .3);
+}
 
 
-
+.jd2  .sidechain2 ul li:hover {
+    transform: translate3d(0, -5px ,0);
+   box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .3);
+} 
